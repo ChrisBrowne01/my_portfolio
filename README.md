@@ -25,6 +25,9 @@ List all the technologies and/or frameworks used and what purpose they serve in 
     *Develop locally on your computer*
   - Visual Studio Code
     *Text editor used to build the website on*
+  - Google
+     *Search for debuging soloutions*
+     *Obtain resources such as images online to be used within the site*
 
 ***Collaborators:***
 
