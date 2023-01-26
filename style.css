@@ -1,0 +1,84 @@
+body {
+  font-size: 16px;
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #833491;
+  }
+  
+  ul.topnav li {
+  float: left;
+  }
+  
+  ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Gill Sans Nova W01 Medium", sans-serif;
+  }
+  
+  ul.topnav li a:hover {
+  text-decoration: underline;
+  }
+  
+  ul.topnav li a.active {
+  background-color: #04AA6D;
+  }
+  
+  ul.topnav li.nav-item {
+  float: right;
+  }
+  
+  .nav-logo {
+  background-size: 50%;
+  width: auto;
+  border-radius: 5px;
+  }
+
+#about {
+  display: flex;
+}
+
+#about div {
+  width:50%;
+  display: block;
+}
+
+#about div p, #about div h2 {
+  text-align: left;
+  padding-left: 5rem;
+  
+}
+
+#about figure {
+  max-width: 341px;
+  padding: auto;
+  display: block;
+  border: 0.1rem solid #024;
+  border-radius: 0.4rem;
+}
+
+#about figure img {
+  max-width: 300px;
+  display: block;
+  width: 90%;
+  height: auto;
+  text-align: center;
+  padding: 0.5rem;
+  margin: 0 auto;
+}
+
+figure figcaption {
+  text-align: center;
+  padding-bottom: 0.5rem;
+}
+
+#projects>li.projectItem {
+  list-style-type:disc;
+}

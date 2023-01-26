@@ -7,6 +7,11 @@
     <title>My Portfoilo Website</title>
     <link rel="icon" type="image/x-icon" href="resources/favicon.ico">   <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="script.js">
+
+    <!-- Boostrap Libraries for Carousel 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>-->
     <!-- Script for Font Awesome 5 -->
     <script src="https://kit.fontawesome.com/4ccf07babe.js" crossorigin="anonymous"></script>
   </head>
@@ -15,7 +20,7 @@
       <h1>MY PORTFOLIO</h1>
     </header>
     <nav>
-      <ul>
+      <ul class="topnav">
         <li class="nav-item"><a href="#about">About Me</a></li>
         <li class="nav-item"><a href="#projects">Projects</a></li>
         <li class="nav-item"><a href="#skills">Skills</a></li>
@@ -24,11 +29,20 @@
     </nav>
     <section>
       <article id="about">
-        <h2>About Me</h2>
-        <p></p>
+        <div>
+          <h2>About Me</h2>
+          <p>In 2014 I create my first self-taught fully coded website https://www.smbdocumentstorage.co.uk, which  has now been since rebranded but my SEO skills of this site still show traces of its existance today!</p>
+          
+          <p>My skill since then have improved and in 2016 with the resources avalible to me, I developed a fully functional eCommerce website with admin and user interface and PayPal API intergrated within the checkout. However, the client refuse to pay so and so the site was never properly published. In this project I used XMAPP 1.8.3 with Apache 2.4 &amp; MySQL server, with both PHP 5.5 and phpMyAdmin 4.2.</p>
+          
+          <p>In July 2022 After being made redundant from the family business for financial reason, took it upon myself to pay for a traineeship in coding with Career Switch IT.</p>
+        
+          <p>I look forward to the up coming projects, tasks and challenges that await me in the future of my career. If you like my work and would like a program, webite, or app made, then why not get in touch. Please find my contact information in the Contact tab at the top of the page, thank you.</p>
+        </div>
+
         <figure>
-          <img src="./resources/profilr.jpg" alt="Profile photo of Christopher Browne">
-          <figcaption>Profile photo of Christopher Browne</figcaption>
+          <img src="./resources/profile.jpg" alt="Profile photo of Christopher Browne">
+          <figcaption>Photo of Christopher Browne</figcaption>
         </figure>
       </article>
     </section>
@@ -36,8 +50,10 @@
       <h2 id="projects">Projects</h2>
       <ul>
         <h3><!-- Name of project --></h3>
-        <li><a id="projectItem" href="./"></a></li><!-- Add some Javascript to auto file new projects into website -->
-        <span>Date: <!-- date of project--></span>
+        <li><a id="projectItem" href="https://github.com/ChrisBrowne01/Freedom_Fitness">Project: Freedom Fittness</a></li>
+        <li><a id="projectItem" href="https://github.com/ChrisBrowne01/Form_a_story">Project: Form a Story</a></li>        
+        <li><a id="projectItem" href="https://github.com/ChrisBrowne01/mixed_messages">Project: Mixed Messages</a></li><!-- Add some Javascript to auto file new projects into website -->
+        <p>Fun fact: It has been <span id="timesamp"></span> minuite since the launch of this site.</p>
       </ul>
       <br>
       <div id="skills">
