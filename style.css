@@ -1,20 +1,31 @@
+@font-face {
+  font-family: "Gill Sans Nova W01 Medium";
+  src: url("//db.onlinewebfonts.com/t/1d9f84285a1762213c7105de2c9da197.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/1d9f84285a1762213c7105de2c9da197.woff") format("woff");
+} 
+
 body {
+  background-color: black;
+  color:white;
   font-size: 16px;
+  margin: 0;
 }
 
-ul.topnav {
+
+
+ul.nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #833491;
+  background-color: hsl(200, 10%, 25%);
+
   }
   
-  ul.topnav li {
+  ul.nav li {
   float: left;
   }
   
-  ul.topnav li a {
+  ul.nav li a {
   display: block;
   color: white;
   text-align: center;
@@ -23,24 +34,21 @@ ul.topnav {
   font-family: "Gill Sans Nova W01 Medium", sans-serif;
   }
   
-  ul.topnav li a:hover {
+  
+  ul.nav li a:hover {
   text-decoration: underline;
   }
   
-  ul.topnav li a.active {
+  ul.nav li a.active {
   background-color: #04AA6D;
   }
   
-  ul.topnav li.nav-item {
+  ul.nav li.nav-item {
   float: right;
   }
-  
-  .nav-logo {
-  background-size: 50%;
-  width: auto;
-  border-radius: 5px;
-  }
 
+/* After nav section */
+  
 #about {
   display: flex;
 }
@@ -58,7 +66,7 @@ ul.topnav {
 
 #about figure {
   max-width: 341px;
-  padding: auto;
+  height: fit-content;
   display: block;
   border: 0.1rem solid #024;
   border-radius: 0.4rem;
@@ -79,6 +87,22 @@ figure figcaption {
   padding-bottom: 0.5rem;
 }
 
-#projects>li.projectItem {
-  list-style-type:disc;
+#projects ul li {
+  color: hsl(200, 10%, 25%);
 }
+
+#projects ul li a {
+  text-decoration: none;
+}
+
+/*@media only screen and (min-width: 701px) {
+    footer nav ul li{ 
+      padding-top: 5rem;
+    }
+  }*/
+  
+  @media screen and (max-width: 600px) {
+    ul.nav li.nav-item, ul.nav li {
+      float: none;
+    }
+  }
