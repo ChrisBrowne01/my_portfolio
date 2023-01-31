@@ -438,23 +438,87 @@ footer p.copyright {
   margin-top: 0;
 }
 
-/*@media only screen and (min-width: 701px) {
+  @media only screen and (min-width: 701px) {
+
+    .gallery img {
+      max-height:200px;
+    }
+  
     footer nav ul li{ 
       padding-top: 5rem;
     }
-  }*/
-
+    
+  }
+  @media only screen and (max-width: 700px) {
+     #portfolio, 
+     #about, 
+     #projects, 
+     #skills,
+     #contact {
+      text-align: center;
+      padding: 0 px;
+      width: 100%;
+      }
+    nav, 
+    h1,
+    #about div h2,
+    #about, 
+    #about div,
+    #contact div h2, 
+    #contact div p,
+    #contact div ul, 
+    #contact div,
+    #projects,
+    #projects div, 
+    #skills, 
+    #skills .box,
+    #about div p, 
+    nav ul.nav {
+      width: 100%;
+      display:block;
+      text-align: center;
+      margin-left: 0;
+      margin-right: 0;
+      padding-left: 0;
+      padding-right: 0;
+    }
+    ul.nav {
+      margin: auto;
+      display: block;
+      width: 100%;
+    }
+    footer p:nth-last-child(2) {
+      margin-bottom: 0;
+    }
+    footer p.copyright {
+      text-align: left;
+      margin-top: 4px;
+    }
+    ul.nav li a {
+      margin: auto;
+    }
+    #contact {
+      display: block;
+    }
+  }
 @media screen and (max-width: 600px) {
-
-  ul.nav li.nav-item,
-  ul.nav li {
+  .nav .nav-item , #about {
     float: none;
-    margin-right: none;
+    width: 100%;
   }
-
-  #skills div i.fab,
-  #skills div i.fas {
-    font-size: 48px;
+  footer nav {
+    display: none;
   }
-
+}
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+  #portfolio, 
+  #about, 
+  #projects, 
+  #skills,
+  #contact {
+    width: 100%;
+  }
 }
