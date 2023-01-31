@@ -1,168 +1,274 @@
 <!DOCTYPE html>
 <html lang="en-GB">
-  <head>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="Portfoilo, Website">
-    <meta name="author" content="Christopher Browne">
-    <title>My Portfoilo Website</title>
-    <link rel="icon" type="image/x-icon" href="resources/favicon.ico">   <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="script.js">
 
-    <!-- Boostrap Libraries for Carousel 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>-->
-    <!-- Script for Font Awesome 5 -->
-    <script src="https://kit.fontawesome.com/4ccf07babe.js" crossorigin="anonymous"></script>
-  </head>
-  <body>
-    <nav>
-      <ul class="nav">
-        <li class="nav-item"><a href="#about">About Me</a></li>
-        <li class="nav-item"><a href="#projects">Projects</a></li>
-        <li class="nav-item"><a href="#skills">Skills</a></li>
-        <li class="nav-item"><a href="./contact.html">Contact</a></li>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A website portfolio of projects developed by Christopher Browne and how to contact">
+  <meta name="keywords" content="website, portfolio, projects">
+  <meta name="author" content="Christopher Browne">
+  <title>My Portfoilo Website</title>
+  <link rel="icon" type="image/x-icon" href="resources/favicon.ico">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="https://kit.fontawesome.com/4ccf07babe.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <nav>
+    <ul class="nav">
+      <li class="nav-item"><a href="#about">About Me</a></li>
+      <li class="nav-item"><a href="#projects">Projects</a></li>
+      <li class="nav-item"><a href="#skills">Skills</a></li>
+      <li class="nav-item"><a href="./contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <hr>
+  <header id="portfolio">
+    <h1>Christopher Browne</h1>
+  </header>
+  <section>
+    <article id="about">
+      <div>
+        <h2>About Me</h2>
+        <p>I create my first self-taught fully coded website for a company in 2014, which has now
+          been since rebranded and renamed, but my impressive SEO skills of this site still show traces of its existance when searching for it to this day!</p>
+          
+        <p>By 2015 I developed my first fully functional eCommerce website.</p>
+
+        <p>In July 2022 after certian circumstances caused me to leave my job within the family business. I took up a traineeship in coding with Career Switch IT which I paid for myself.</p>
+
+        <p>I love to code and look forward to the up coming projects, tasks and challenges that await me in the future of my career. If
+          you like my work and would like a program, webite, or app made, then why not get in touch. Please find my
+          contact information in the Contact tab at the top of the page, thank you.</p>
+      </div>
+
+      <figure>
+        <img src="./resources/profile.jpg" alt="Profile photo of Christopher Browne">
+        <figcaption>Photo of Christopher Browne</figcaption>
+      </figure>
+    </article>
+  </section>
+  <section id="projects">
+    <h2>Projects</h2>
+    <details>
+      <Summary><strong>Outbound Outbound Phone and Email Report Tools</strong></Summary>
+      <img src="./resources/outbound-email-daily-report-code-project.jpg" alt="Picture of final result" height="200px" width="200px">
+      <p>I programmed two simply performance evaluation design tools to assess the key performance of each individual
+        employee within the Sale Team each day. The result were dislapy in an easily readable EXCEL Graph for management
+        montior and to check the teams performance 2015.</p>
+      <strong>Tecnoligies Used:</strong>
+      <ul>
+        <li> PHP - Used for the script programming language. </li>
+        <li> Web server - used to get the email log for the source code file. </li>
+        <li> Askozia PBX - use to generate a Call Dial Records file of outbound phone calls made for a soucre file /li
+        <li> htmail Server - locally store the files for the program. </li>
+        <li> CLI (batch) Used for the script programming language. </li>
+        <li> Excel 2003 or 2007 - read the source file (.csv) to and write the results to a excel (.xlsx) chart file.
+        </li>
+      </ul>
+    </details>
+
+    <details>
+      <Summary><span><strong>Website: SMB Document Storage</strong></span></Summary>
+      <img src="./resources/smb-document-storage-project.jpg" alt="Snapshot of SMB DocumentStorage on large and small screen" height="200px" width="200px">
+      <p>I self-taught to code a dynamic website using the resources avalible to me. of which, I developed a fully
+        functional eCommerce website with admin and user level access, as well as PayPal API intergrated within the checkout.
+        The website no longer exists due to the company renaming and rebranding it's self, so to review this site go to 'Internet Archive Wayback Machine and search <a href="https://web.archive.org/web/20190105024620/https://www.smbdocumentstorage.co.uk/">https://www.smbdocumentstorage.co.uk/</a>.
+      </p> 
+      </p>
+      <strong>Technologies Used:</strong>
+      <ul>
+        <li>XMAPP 1.8.3 - Used to host and run PHP code and MySQL database on a local server enviroment. This provided a form of Version Control.</li>
+        <li>123Reg - Using C-Pannel, DNS Records, and other tools I was able to host the website on their web hosting platform.</li>
+        <li>HTML &amp; CSS - T code the snippetes of code that help to from the webpages.</li>
+        <li>XML - For developing several sitemap</li>
+        <li>Web Services: REST API, SOAP - Use in my PayPal API of which I setup my self and tested through the Paypal API Sandbox</li>
+      </ul>
+    </details>
+
+    <details>
+      <Summary><span><strong>Website: Gallop On Ltd</strong></span></Summary>
+      <img src="./resources/gallop-on-ltd-project.jpg" alt="Snapshot of GallopOn Ltd on large and small screen" height="200px" width="200px">
+      <p>I design this website with a completelym different layout approach I mind than the ones I usually do. Its design makes it more user friendly and easier to navigate with a flat strucured site. The site no longer exists due to the company being disolved, so to review this site go to 'Internet Archive Wayback Machine and search <a href="https://web.archive.org/web/20180809185602/http://galloponltd.co.uk/">http://galloponltd.co.uk/</a>.
+      </p>
+      <strong>Technologies Used:</strong>
+      <ul>
+        <li>HTML - Used to see the layout of the page.</li>
+        <li>JavaScript - Used to toggle bewteen pages etc.</li>
+        <li>W3.CSS, Font Awesome 4 Libraries. See list below fore details:<br>
+          - http://www.w3schools.com/lib/w3.css<br>
+          - https://www.w3schools.com/w3css/4/w3.css<br>
+          - http://www.w3schools.com/lib/w3-theme-black.css<br>
+          - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css<br>
+          - https://fonts.googleapis.com/css?family=Raleway</li>
+        <li>Social Media - To increase traffic to the page, improving the websites SEO.</li>
+      </ul>
+    </details>
+
+    <details>
+      <Summary><span><strong>Freedom Fittness Static Website/Tea Cosy Static Website</strong></span></Summary>
+      <img src="./resources/freedom-leisure-project.jpg" alt="Snapshot of Freedom Leisure on large and small screen" height="200px" width="200px">
+      <p>This project was part of my course, to develop a single-page static website for my local sports club. 
+        I kept the colour scheme close to the orignal but with the actual  current websites theme  Semantic
+        Summary of the project in one short sentence. (about 270 character max length.)
+      </p>
+      <strong>Technologies Used:</strong>
+      <ul>
+        <li>HTML 5 - HTML Semantics was used to clearly define its content to both the browser and developer.</li>
+        <li>CSS - Used for styling the static website, including the setting fontface types and providing a Responsive Web Design for alternative viewports.</li>
+        <li>JavaScript - Use to display the correct opening times for that current day in realtime.</li>
+        <li>Online Webfonts - Used to make the readablity of content more engaging for the user. (<a href="//db.onlinewebfonts.com/c/1d9f84285a1762213c7105de2c9da197?family=GillSansNovaforJLW01-Medium">
+          db.onlinewebfonts.com</a>)</li>
+      </ul>
+    </details>
+    <br>
+    <hr>
+  </section>
+  <section>
+    <div id="skills">
+      <h2>Skills</h2>
+      <div class="block">
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <div class="wrapper">
+          <div class="mySlides">
+            <div class="numbertext"></div>
+            <div class="card">
+              <i class='fab fa-css3-alt fa-fw'></i>
+              <div class="overlay">
+                <div class="text">HTML</div>
+              </div>
+            </div>
+          </div>
+          <div class="mySlides">
+            <div class="numbertext"></div>
+            <div class="card">
+              <i class='fab fa-html5 fa-fw'></i>
+              <div class="overlay">
+                <div class="text">CSS</div>
+              </div>
+            </div>
+          </div>
+          <div class="mySlides">
+            <div class="numbertext"></div>
+            <div class="card">
+              <i class='fab fa-js-square fa-fw'></i>
+              <div class="overlay">
+                <div class="text">JavaScript</div>
+              </div>
+            </div>
+          </div>
+          <div class="mySlides">
+            <div class="numbertext"></div>
+            <div class="card">
+              <i class='fab fa-php fa-fw'></i>
+              <div class="overlay">
+                <div class="text">PHP</div>
+              </div>
+            </div>
+          </div>
+          <div class="mySlides">
+            <div class="numbertext"></div>
+            <div class="card">
+              <i class='fas fa-database fa-fw'></i>
+              <div class="overlay">
+                <div class="text">MySQL</div>
+              </div>
+            </div>
+          </div>
+          <div class="mySlides">
+            <div class="numbertext"></div>
+            <div class="card">
+              <i class='fab fa-python fa-fw'></i>
+              <div class="overlay">
+                <div class="text">Python</div>
+              </div>
+            </div>
+          </div>
+          <div class="mySlides">
+            <div class="numbertext"></div>
+            <div class="card">
+              <i class='fab fa-paypal fa-fw'></i>
+              <div class="overlay">
+                <div class="text">PayPal</div>
+              </div>
+            </div>
+          </div>
+          <div class="mySlides">
+            <div class="numbertext"></div>
+            <div class="card">
+              <i class='fas fa-terminal fa-fw'></i>
+              <div class="overlay">
+                <div class="text">CLI</div>
+              </div>
+            </div>
+          </div>
+          <div class="mySlides">
+            <div class="numbertext"></div>
+            <div class="card">
+              <i class='fab fa-git fa-fw'></i>
+              <div class="overlay">
+                <div class="text">Git</div>
+              </div>
+            </div>
+          </div>
+          <div class="mySlides">
+            <div class="numbertext"></div>
+            <div class="card">
+              <i class='fab fa-github fa-fw'></i>
+              <div class="overlay">
+                <div class="text">GitHub</div>
+              </div>
+            </div>
+          </div>
+          <div class="mySlides">
+            <div class="numbertext"></div>
+            <div class="card">
+              <i class='fab fa-node-js fa-fw'></i>
+              <div class="overlay">
+                <div class="text">Node.js</div>
+              </div>
+            </div>
+          </div>
+          <div class="mySlides">
+            <div class="numbertext"></div>
+            <div class="card">
+              <i class='fab fa-chrome fa-fw'></i>
+              <div class="overlay">
+                <div class="text">Chrome</div>
+              </div>
+            </div>
+          </div>
+          <div class="mySlides">
+            <div class="numbertext"></div>
+            <div class="card">
+              <i class='fab fa-firefox-browser fa-fw'></i>
+              <div class="overlay">
+                <div class="text">Firefox <br>(Developer)</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <nav class="footer-nav nav">
+      <ul>
+        <li class="nav-item"><a href="#portfolio">Website Portfoilo</a></li><span>|</span>
+        <li class="nav-item"><a href="#about">About Me</a></li><span>|</span>
+        <li class="nav-item"><a href="#projects">Projects</a></li><span>|</span>
+        <li class="nav-item"><a href="#skills">Skills</a></li><span>|</span>
+        <li class="nav-item"><a href="./contact">Contact</a></li>
       </ul>
     </nav>
-    <header id="portfolio">
-      <h1>MY PORTFOLIO</h1>
-    </header>
-    <section>
-      <article id="about">
-        <div>
-          <h2>About Me</h2>
-          <p>In 2014 I create my first self-taught fully coded website https://www.smbdocumentstorage.co.uk, which  has now been since rebranded but my SEO skills of this site still show traces of its existance today!</p>
-          
-          <p>My skill since then have improved and in 2016 with the resources avalible to me, I developed a fully functional eCommerce website with admin and user interface and PayPal API intergrated within the checkout. However, the client refuse to pay so and so the site was never properly published. In this project I used XMAPP 1.8.3 with Apache 2.4 &amp; MySQL server, with both PHP 5.5 and phpMyAdmin 4.2.</p>
-          
-          <p>In July 2022 After being made redundant from the family business for financial reason, took it upon myself to pay for a traineeship in coding with Career Switch IT.</p>
-        
-          <p>I look forward to the up coming projects, tasks and challenges that await me in the future of my career. If you like my work and would like a program, webite, or app made, then why not get in touch. Please find my contact information in the Contact tab at the top of the page, thank you.</p>
-        </div>
+    <br>
+    <p><strong><i>Call:</i></strong> (+44) 0-7958-689-079</p>
+    <p>Created and published by: <span role="author">Christpher Browne</span></p>
+    <p class="copyright"><span>Copyright &copy; GNU General Public License v3.0</span> <span id="date"></span></p>
+    </span>
+  </footer>
+  <script src="script.js" defer></script>
 
-        <figure>
-          <img src="./resources/profile.jpg" alt="Profile photo of Christopher Browne">
-          <figcaption>Photo of Christopher Browne</figcaption>
-        </figure>
-      </article>
-    </section>
-    <section id="projects">
-      <h2>Projects</h2>
-      <ul class="fa-ul">
-        <h3><!-- Name of project --></h3>
-        <li><span class="fa-li"><i class="fas fa-long-arrow-alt-right"></i></span><a id="projectItem" href="https://github.com/ChrisBrowne01/Freedom_Fitness">Project: Freedom Fittness</a></li>
-        <li><span class="fa-li"><i class="fas fa-long-arrow-alt-right"></i></span><a id="projectItem" href="https://github.com/ChrisBrowne01/Form_a_story">Project: Form a Story</a></li>        
-        <li><span class="fa-li"><i class="fas fa-long-arrow-alt-right"></i></span><a id="projectItem" href="https://github.com/ChrisBrowne01/mixed_messages">Project: Mixed Messages</a></li><!-- Add some Javascript to auto file new projects into website -->
-        <p>Fun fact: It has been <span id="timesamp"></span> minuite since the launch of this site.</p>
-      </ul>
-      <br>
-      <div id="skills">
-        <!-- Insert a carolsell of languages I have learnt -->
-        <!-- HTML -->
-        <div class="container">
-          <i class='fab fa-css3-alt fa-fw' style='font-size:48px;'></i>
-          <div class="overlay">
-            <div class="text">HTML</div>
-          </div>
-        </div>
-        <!-- CSS -->
-        <div class="container">
-          <i class='fab fa-html5 fa-fw' style='font-size:48px;'></i>
-          <div class="overlay">
-            <div class="text">CSS</div>
-          </div>
-        </div>
-        <!-- JavaScript -->
-        <div class="container">
-          <i class='fab fa-js-square fa-fw' style='font-size:48px;color:orange;'></i>
-          <div class="overlay">
-            <div class="text">JavaScript</div>
-          </div>
-        </div>
-        <!-- PHP -->
-        <div class="container">
-          <i class='fab fa-php fa-fw' style='font-size:48px;color:SlateBlue;'></i>
-          <div class="overlay">
-            <div class="text">PHP</div>
-          </div>
-        </div>        
-        <!-- SQL -->
-        <div class="container">
-          <i class='fas fa-database fa-fw' style='font-size:48px;color:SlateBlue;'></i>
-          <div class="overlay">
-            <div class="text">MySQL</div>
-          </div>
-        </div>        
-        <!-- Python -->
-        <div class="container">
-          <i class='fab fa-python fa-fw' style='font-size:48px;'></i>
-          <div class="overlay">
-            <div class="text">Python</div>
-          </div>
-        </div>
-        <!-- PayPal -->
-        <div class="container">
-          <i class='fab fa-paypal fa-fw' style='font-size:48px;color:midnightblue'></i>
-          <div class="overlay">
-            <div class="text">PayPal (Paypal API Developer &amp; Sandbox eCommerce Website Intergration)</div>
-          </div>
-        </div>
-        <!-- CLI -->
-        <div class="container">
-          <i class='fas fa-terminal fa-fw' style='font-size:48px;'></i>
-          <div class="overlay">
-            <div class="text">Command Line Interface (CLI)</div>
-          </div>
-        </div>
-        <!-- Git -->
-        <div class="container">
-          <i class='fab fa-git fa-fw' style='font-size:48px;color: #000;'></i>
-          <div class="overlay">
-            <div class="text">Git</div>
-          </div>
-        </div>
-        <!-- GitHub -->
-        <div class="container">
-          <i class='fab fa-github fa-fw' style='font-size:48px;color: #000;'></i>
-          <div class="overlay">
-            <div class="text">GitHub</div>
-          </div>
-        </div>
-        <!-- Node.js -->
-        <div class="container">
-          <i class='fab fa-node-js fa-fw' style='font-size:48px;color:#86b300;'></i>
-          <div class="overlay">
-            <div class="text">Node.js</div>
-          </div>
-        </div>        
-        <!-- Chrome -->
-        <div class="container">
-          <i class='fab fa-chrome fa-fw' style='font-size:48px;color:red;'></i>
-          <div class="overlay">
-            <div class="text">Google Chrome</div>
-          </div>
-        </div>        
-        <!-- Firefor (Developer) -->
-        <div class="container">
-          <i class='fab fa-firefox-browser fa-fw' style='font-size:48px;color: cornflowerblue;'></i>
-          <div class="overlay">
-            <div class="text">Mozilla Firefox (Developer)</div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <footer>
-      <nav class="footer-nav nav">
-        <ul>
-          <li class="nav-item"><a href="#portfolio">Website Portfoilo</a></li>
-          <li class="nav-item"><a href="#about">About Me</a></li>
-          <li class="nav-item"><a href="#projects">Projects</a></li>
-          <li class="nav-item"><a href="#skills">Skills</a></li>
-          <li class="nav-item"><a href="./contact">Contact</a></li>
-        </ul>
-      </nav>
-      <h2>My Portfolio Website</h2>
-      <p>Create and published by: <span role="author">Christpher Browne</span></p>
-    </footer>
-  </body>
+</body>
+
 </html>
